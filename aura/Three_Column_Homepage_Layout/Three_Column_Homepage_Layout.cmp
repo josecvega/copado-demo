@@ -14,21 +14,22 @@
             </lightning:layoutItem>
         </lightning:layout>
         <lightning:layout>
-
-	            <lightning:layoutItem size="4" padding="around-small" class="">
-    	        	{!v.left_col}
-        	    </lightning:layoutItem>
-            	<lightning:layoutItem size="4" padding="around-small" class="">
-            		{!v.mid_col}
+            <lightning:layoutItem size="8" padding="around-small" class="">
+					{!v.list}
             	</lightning:layoutItem>
+
             	<lightning:layoutItem size="4" padding="around-small" class="">
 					{!v.right_col}
             	</lightning:layoutItem>
 
         </lightning:layout>
         <lightning:layout>
-            <lightning:layoutItem size="8" padding="around-small" class="">
-					{!v.list}
+
+            	            <lightning:layoutItem size="4" padding="around-small" class="">
+    	        	{!v.left_col}
+        	    </lightning:layoutItem>
+            	<lightning:layoutItem size="4" padding="around-small" class="">
+            		{!v.mid_col}
             	</lightning:layoutItem>
         </lightning:layout>
     </div>

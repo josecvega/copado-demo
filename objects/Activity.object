@@ -117,7 +117,7 @@
         <fullName>Case__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Case</label>
+        <label>Project</label>
         <referenceTo>Case</referenceTo>
         <relationshipLabel>Activities</relationshipLabel>
         <relationshipName>Activities</relationshipName>
@@ -176,5 +176,5 @@
         <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

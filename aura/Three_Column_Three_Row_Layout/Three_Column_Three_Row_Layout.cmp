@@ -4,7 +4,7 @@
 	<aura:attribute name="left_col" type="Aura.Component[]" />
 	<aura:attribute name="mid_col" type="Aura.Component[]" />
 	<aura:attribute name="right_col" type="Aura.Component[]" />
-    
+    <aura:attribute name="path" type="Aura.Component[]" />
 	<aura:attribute name="detail" type="Aura.Component[]" />
    	<aura:attribute name="right_sidebar" type="Aura.Component[]" />
 
@@ -27,7 +27,11 @@
             	</lightning:layoutItem>
 
         </lightning:layout>
-        
+    	<lightning:layout multipleRows="true">
+        	<lightning:layoutItem size="12" padding="around-small" class="">
+            	{!v.path}
+            </lightning:layoutItem>
+        </lightning:layout>
         <lightning:layout>
             <lightning:layoutItem size="8" padding="around-small" class="">
 					{!v.detail}
