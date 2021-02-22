@@ -275,6 +275,7 @@
     <columns>
         <field>EMAIL</field>
     </columns>
+    <currency>USD</currency>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>

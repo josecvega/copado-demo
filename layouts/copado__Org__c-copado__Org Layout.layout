@@ -52,6 +52,10 @@
                 <behavior>Edit</behavior>
                 <field>copado__Default_Scratch_Org_Definition__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

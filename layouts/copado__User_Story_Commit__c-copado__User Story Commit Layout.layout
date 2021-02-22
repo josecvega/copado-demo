@@ -26,6 +26,10 @@
                 <behavior>Readonly</behavior>
                 <field>copado__View_in_Git__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CurrencyIsoCode</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>

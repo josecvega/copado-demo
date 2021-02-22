@@ -30,6 +30,7 @@
     <columns>
         <field>TASK</field>
     </columns>
+    <currency>USD</currency>
     <format>Tabular</format>
     <name>Task Count</name>
     <params>
