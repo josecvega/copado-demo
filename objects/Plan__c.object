@@ -215,6 +215,18 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Plans</relationshipLabel>
+        <relationshipName>Plans</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Timezone__c</fullName>
         <externalId>false</externalId>
         <label>Timezone</label>

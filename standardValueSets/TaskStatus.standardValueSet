@@ -31,4 +31,10 @@
         <label>Deferred</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>Overdue</fullName>
+        <default>false</default>
+        <label>Overdue</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>

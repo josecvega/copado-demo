@@ -183,9 +183,9 @@
     </fields>
     <listViews>
         <fullName>All_Tasks</fullName>
-        <columns>SUBJECT</columns>
+        <columns>Task_Name__c</columns>
         <columns>Case__c</columns>
-        <columns>STATUS</columns>
+        <columns>Task_Status__c</columns>
         <columns>DUE_DATE</columns>
         <columns>CORE.USERS.FULL_NAME</columns>
         <filterScope>Everything</filterScope>

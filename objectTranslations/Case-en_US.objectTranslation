@@ -106,6 +106,18 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Project Health --></label>
+        <name>Project_Health__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Number --></label>
+        <name>Project_Number__c</name>
+    </fields>
+    <fields>
         <label><!-- SLA Violation --></label>
         <name>SLAViolation__c</name>
         <picklistValues>
@@ -116,6 +128,10 @@
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
     </fields>
     <fields>
         <label><!-- Start Date --></label>

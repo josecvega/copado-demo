@@ -12,4 +12,5 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>Plan__c</tabs>
+    <tabs>RPS_Account__x</tabs>
 </CustomApplication>
