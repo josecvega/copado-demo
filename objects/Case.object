@@ -316,6 +316,7 @@
     </fields>
     <fields>
         <fullName>Estimated_Transfer__c</fullName>
+        <description>Selected in Copado</description>
         <externalId>false</externalId>
         <label>Estimated Transfer</label>
         <precision>14</precision>
@@ -470,6 +471,7 @@
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
+        <description>Added via Copado</description>
         <externalId>false</externalId>
         <label>Potential Liability</label>
         <required>false</required>
@@ -595,6 +597,7 @@ CASE(Status,
     </fields>
     <fields>
         <fullName>Project_Number__c</fullName>
+        <description>force a change</description>
         <externalId>false</externalId>
         <formula>CaseNumber</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -658,6 +661,7 @@ CASE(Status,
     </fields>
     <fields>
         <fullName>Start_Date__c</fullName>
+        <description>Change tracked in Copado</description>
         <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
