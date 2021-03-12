@@ -4534,11 +4534,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Location.VisitorAddressId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>MessagingEndUser.AccountId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -12596,9 +12591,6 @@
         <layout>AccountContactRelation-Account Contact Relationship Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Address-Address Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>AssetAction-Asset Action Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -12615,16 +12607,10 @@
         <recordType>Case.Project_Baseline</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Employee-Employee Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FinanceTransaction-Finance Transaction Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>LegalEntity-Legal Entity Layout</layout>
